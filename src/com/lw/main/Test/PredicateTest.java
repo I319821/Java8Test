@@ -11,6 +11,10 @@ public class PredicateTest {
 
         System.out.println("language start with J");
         filter(languages,str->str.toString().startsWith("J"));
+
+        System.out.println("language start with C");
+        languages.stream().filter(str->str.toString().startsWith("C")).forEach(System.out::println);
+
     }
 
     private static void filter(List list, Predicate condition){
