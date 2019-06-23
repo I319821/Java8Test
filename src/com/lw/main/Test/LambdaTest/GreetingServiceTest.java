@@ -1,4 +1,4 @@
-package com.lw.main.Test;
+package com.lw.main.Test.LambdaTest;
 
 import com.lw.main.interfaces.GreetingService;
 
